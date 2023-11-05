@@ -7,5 +7,12 @@
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "dev": "bun ./src",
+    "build": "bun --watch build ./src --outdir='dist'"
+  },
+  "dependencies": {
+    "commander": "^11.0.0"
   }
 }
